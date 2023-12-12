@@ -1,6 +1,6 @@
 namespace Factory.Tests
 {
-    public class FactoryUnitTest
+    public class FactoryExampleUnitTest
     {
         [Fact]
         public void Test1()
