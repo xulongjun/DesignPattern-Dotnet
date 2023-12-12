@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using FactoryExample.Creator;
+using FactoryExample.Product;
+
+Console.WriteLine("Select the payment gateway (PayPal, Stripe, CreditCard): ");
+string gatewayName = Console.ReadLine();
+try
+{
+    IPaymentGateway paymentGateway = PaymentGatewayFactory.CreatePaymentGateway(gatewayName);
+    paymentGateway.ProcessPayment(100.00M);  // Example amount
+}
+catch (ArgumentException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+Console.ReadKey();
