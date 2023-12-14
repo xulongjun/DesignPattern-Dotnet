@@ -2,7 +2,7 @@ jobs:
 - job: factory_build
   steps:
 
-  - template: build/build-dotnet.yml@templates
+  - template: build/build-dotnet-console.yml@templates
     parameters:
       sourceCodeDirectory: 'Creational\Factory\source\'
       dotnetCoreVersion: '8.0.x'
