@@ -1,6 +1,6 @@
 resources:
   repositories:
-  - repository: github.com_xulongjun   # Name used to refer to this repository
+  - repository: templates   # Name used to refer to this repository
     type: github
     name: xulongjun/pipeline-templates  # Repository name in the format UserName/RepoName
     endpoint: github.com_xulongjun # Service connection to GitHub, set up in Azure DevOps
