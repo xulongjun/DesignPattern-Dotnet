@@ -1,7 +1,7 @@
 using FactoryExample.Creator;
 using FactoryExample.Product;
 
-namespace Factory.Tests
+namespace FactoryExample.Tests
 {
     public class FactoryExampleUnitTest
     {
@@ -15,7 +15,7 @@ namespace Factory.Tests
         {
             // Arrange
             string expectedMessage = $"Processing ${100.00M} payment using {gatewayName}...";
-            using var sw = new StringWriter();
+            using StringWriter sw = new();
             Console.SetOut(sw);
 
             // Act
@@ -35,7 +35,7 @@ namespace Factory.Tests
             string expectedMessage = $"Invalid payment gateway specified : {gatewayName}";
 
             // Act & Assert
-            var exception = Assert.Throws<ArgumentException>(() =>
+            ArgumentException exception = Assert.Throws<ArgumentException>(() =>
             {
                 PaymentGateway = PaymentGatewayFactory.CreatePaymentGateway(gatewayName);
                 PaymentGateway.ProcessPayment(100.00M);

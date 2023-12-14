@@ -2,7 +2,7 @@
 using FactoryExample.Product;
 
 Console.WriteLine("Select the payment gateway (PayPal, Stripe, CreditCard): ");
-string gatewayName = Console.ReadLine();
+string gatewayName = Console.ReadLine() ?? string.Empty;
 try
 {
     IPaymentGateway paymentGateway = PaymentGatewayFactory.CreatePaymentGateway(gatewayName);

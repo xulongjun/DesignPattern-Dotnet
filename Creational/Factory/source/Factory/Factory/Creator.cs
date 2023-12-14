@@ -1,34 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Factory
+﻿namespace Factory
 {
     /// <summary>
     /// The 'Creator' abstract class
     /// </summary>
-    abstract class Creator
+    internal abstract class Creator
     {
-        public abstract Product FactoryMethod();
+        public abstract IProduct FactoryMethod();
     }
+
     /// <summary>
     /// A 'ConcreteCreator' class
     /// </summary>
-    class ConcreteCreatorA : Creator
+    internal class ConcreteCreatorA : Creator
     {
-        public override Product FactoryMethod()
+        public override IProduct FactoryMethod()
         {
             return new ConcreteProductA();
         }
     }
+
     /// <summary>
     /// A 'ConcreteCreator' class
     /// </summary>
-    class ConcreteCreatorB : Creator
+    internal class ConcreteCreatorB : Creator
     {
-        public override Product FactoryMethod()
+        public override IProduct FactoryMethod()
         {
             return new ConcreteProductB();
         }
