@@ -11,7 +11,8 @@ trigger:
       
 stages:
 - stage: Build
-  pool: "DTC-ATHFR-POOL-STG"
+  pool:
+    vmImage: 'ubuntu-latest'
   jobs:
   - template: build.yml
     parameters:
