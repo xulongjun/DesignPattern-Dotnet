@@ -6,7 +6,5 @@ jobs:
     parameters:
       sourceCodeDirectory: 'Creational\Factory\source\'
       dotnetCoreVersion: '8.0.x'
-      artifactName: 'functionPackage'
+      artifactName: 'ConsolePackage'
       buildConfiguration: 'Release'
-      nodejsVersion: '15.x'
-      hasSqlFiles: false
