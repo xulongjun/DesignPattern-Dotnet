@@ -5,6 +5,7 @@ jobs:
   - template: build/build-dotnet-console.yml@templates
     parameters:
       sourceCodeDirectory: 'Creational/Factory/source'
+      testsCodeDirectory: 'Creational/Factory/tests'
       dotnetCoreVersion: '8.0.x'
       artifactName: 'ConsolePackage'
       buildConfiguration: 'Release'

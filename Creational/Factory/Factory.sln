@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{C011A2F7-958C-482A-B1FE-2584E2EB528D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "source\Factory\Factory.csproj", "{C011A2F7-958C-482A-B1FE-2584E2EB528D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryExample.Tests", "Factory.Tests\FactoryExample.Tests.csproj", "{646AB9CB-ABF7-4117-9CBE-2F97A5956AA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryExample.Tests", "tests\Factory.Tests\FactoryExample.Tests.csproj", "{646AB9CB-ABF7-4117-9CBE-2F97A5956AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryExample", "FactoryExample\FactoryExample.csproj", "{8A968EB7-5D55-4560-9D4D-D99CEAF6518E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryExample", "source\FactoryExample\FactoryExample.csproj", "{8A968EB7-5D55-4560-9D4D-D99CEAF6518E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
