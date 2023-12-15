@@ -2,7 +2,7 @@ jobs:
 - job: factory_build
   steps:
 
-  - template: build/build-dotnet-console.yml@templates
+  - template: build/build-dotnet.yml@templates
     parameters:
       sourceCodeDirectory: 'Creational/Factory/source'
       testsCodeDirectory: 'Creational/Factory/tests'
