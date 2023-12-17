@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "source\Builder\B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderExample", "source\BuilderExample\BuilderExample.csproj", "{C4633496-32E9-4AD9-8C8A-4E066CBCA36D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.Tests", "tests\BuilderExample.Tests\Builder.Tests.csproj", "{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderExample.Tests", "tests\BuilderExample.Tests\BuilderExample.Tests.csproj", "{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
