@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype.csproj", "{FF2D7252-319C-42C0-B2BB-E265685AA28F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "source\Singleton\Singleton.csproj", "{2BCD3AC7-0676-474A-881F-99820DD6982C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF2D7252-319C-42C0-B2BB-E265685AA28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF2D7252-319C-42C0-B2BB-E265685AA28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF2D7252-319C-42C0-B2BB-E265685AA28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF2D7252-319C-42C0-B2BB-E265685AA28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCD3AC7-0676-474A-881F-99820DD6982C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCD3AC7-0676-474A-881F-99820DD6982C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCD3AC7-0676-474A-881F-99820DD6982C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCD3AC7-0676-474A-881F-99820DD6982C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0782DA27-6424-43C2-889B-7BD8EE20AEA2}
+		SolutionGuid = {49D42417-8B16-442E-A747-2C9A2DA351DA}
 	EndGlobalSection
 EndGlobal
