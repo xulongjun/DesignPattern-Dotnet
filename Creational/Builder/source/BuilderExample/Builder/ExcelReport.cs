@@ -1,11 +1,4 @@
-﻿using BuilderExample.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BuilderExample.Builder
+﻿namespace BuilderExample.Builder
 {
     // The Following Concrete Builder Implementd the ReportBuilder Abstract Class and 
     // provide specific implementations of the steps for Creating ExcelReport. 

@@ -2,7 +2,7 @@ using BuilderExample.Builder;
 using BuilderExample.Director;
 using BuilderExample.Product;
 
-namespace Builder.Tests
+namespace BuilderExample.Tests
 {
     public class BuilderExampleUnitTest
     {
@@ -18,7 +18,7 @@ namespace Builder.Tests
             string expectedReportType = $"{typeReport}";
 
             // Act
-            var report = GenerateReport(typeReport);
+            Report report = GenerateReport(typeReport);
 
             // Assert
             Assert.Equal(expectedReportContent, report.ReportContent);
@@ -32,11 +32,11 @@ namespace Builder.Tests
             switch (typeVehicle)
             {
                 case "Excel":
-                    var excelReport = new ExcelReport();
+                    ExcelReport excelReport = new();
                     ReportDirector.MakeReport(excelReport);
                     return excelReport.ReportObject;
                 case "Pdf":
-                    var pdfReport = new PdfReport();
+                    PdfReport pdfReport = new();
                     ReportDirector.MakeReport(pdfReport);
                     return pdfReport.ReportObject;
                 default:

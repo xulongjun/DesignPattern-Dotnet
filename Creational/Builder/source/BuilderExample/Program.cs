@@ -2,10 +2,10 @@
 using BuilderExample.Builder;
 using BuilderExample.Director;
 
-var excelReport = new ExcelReport();
+ExcelReport excelReport = new();
 ReportDirector.MakeReport(excelReport);
 excelReport.ReportObject.DisplayReport();
 
-var pdfReport = new PdfReport();
+PdfReport pdfReport = new();
 ReportDirector.MakeReport(pdfReport);
 pdfReport.ReportObject.DisplayReport();

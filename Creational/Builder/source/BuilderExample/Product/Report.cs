@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BuilderExample.Product
+﻿namespace BuilderExample.Product
 {
     // It makes sense to use the Builder Design Pattern only 
     // when your products are quite complex 
@@ -19,9 +13,9 @@ namespace BuilderExample.Product
         public void DisplayReport()
         {
             Console.WriteLine($"Report Type : {ReportType}");
-            Console.WriteLine($"Header : {ReportHeader} " );
-            Console.WriteLine($"Content : {ReportContent} " );
-            Console.WriteLine($"Footer : {ReportFooter} " );
+            Console.WriteLine($"Header : {ReportHeader} ");
+            Console.WriteLine($"Content : {ReportContent} ");
+            Console.WriteLine($"Footer : {ReportFooter} ");
         }
     }
 }

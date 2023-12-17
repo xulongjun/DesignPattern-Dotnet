@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Builder
+﻿namespace Builder
 {
     /// <summary>
     /// The 'Product' class
     /// </summary>
     public class Product
     {
-        private List<string> _parts = new List<string>();
+        private readonly List<string> _parts = [];
         public void Add(string part)
         {
             _parts.Add(part);
@@ -20,7 +14,9 @@ namespace Builder
         {
             Console.WriteLine("\nProduct Parts -------");
             foreach (string part in _parts)
+            {
                 Console.WriteLine(part);
+            }
         }
     }
 }

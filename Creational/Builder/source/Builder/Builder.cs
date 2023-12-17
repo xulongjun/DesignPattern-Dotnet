@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Builder
+﻿namespace Builder
 {
     /// <summary>
     /// The 'Builder' abstract class
@@ -19,7 +13,7 @@ namespace Builder
     /// <summary>
     /// The 'ConcreteBuilder1' class
     /// </summary>
-    class ConcreteBuilder1 : Builder
+    internal class ConcreteBuilder1 : Builder
     {
         public override void BuildPartA()
         {
@@ -34,7 +28,7 @@ namespace Builder
     /// <summary>
     /// The 'ConcreteBuilder2' class
     /// </summary>
-    class ConcreteBuilder2 : Builder
+    internal class ConcreteBuilder2 : Builder
     {
         public override void BuildPartA()
         {
