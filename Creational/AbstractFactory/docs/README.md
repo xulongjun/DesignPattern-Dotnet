@@ -1,8 +1,8 @@
 # C# Abstract Factory Design Pattern
 The Abstract Factory design pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. <br>
+>Abstract Factory : Creates an instance of several families of classes<br>
 
 ## UML class diagram
-A visualization of the classes and objects participating in this pattern.<br>
 ![UML or Class Diagram ](AbstractFactory_UML.webp)
 
 The classes and objects participating in this pattern include:
