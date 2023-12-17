@@ -1,11 +1,11 @@
 jobs:
-- job: XXXXX_build
+- job: Builder_build
   steps:
 
   - template: build/build-dotnet.yml@templates
     parameters:
-      sourceCodeDirectory: 'Creational/XXXXX/source'
-      testsCodeDirectory: 'Creational/XXXXX/tests'
+      sourceCodeDirectory: 'Creational/Builder/source'
+      testsCodeDirectory: 'Creational/Builder/tests'
       dotnetCoreVersion: '8.0.x'
       artifactName: 'ConsolePackage'
       buildConfiguration: 'Release'
