@@ -3,7 +3,7 @@ The Factory Method design pattern defines an interface for creating an object, b
 >Factory : Creates an instance of several derived classes
 
 ## UML class diagram
-![UML or Class Diagram ](Factory_UML.png)
+![UML or Class Diagram ](factory_UML.png)
 
 * Product: This is the interface or abstract class defining the product the factory method will create.
 * ConcreteProduct: These are the specific implementations of the Product interface or abstract class.
