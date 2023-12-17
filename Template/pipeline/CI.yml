@@ -1,0 +1,19 @@
+resources:
+  repositories:
+  - repository: templates   # Name used to refer to this repository
+    type: github
+    name: xulongjun/pipeline-templates  # Repository name in the format UserName/RepoName
+    endpoint: xulongjun # Service connection to GitHub, set up in Azure DevOps
+    ref: refs/heads/main  
+
+trigger:
+  - none
+      
+stages:
+- stage: Build
+  pool:
+    vmImage: 'ubuntu-latest'
+  jobs:
+  - template: build.yml
+    parameters:
+      localpath: ${{variables['System.DefaultWorkingDirectory']}}/pipeline/
