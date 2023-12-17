@@ -1,5 +1,5 @@
 jobs:
-- job: XXXXX_build
+- job: Singleton_build
   steps:
 
   - template: build/build-dotnet.yml@templates
