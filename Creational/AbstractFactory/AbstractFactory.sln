@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "source\AbstractFactory\AbstractFactory.csproj", "{C2E148D6-BC6C-434C-9974-DD48A24D518C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryExample.Tests", "tests\AbstractFactory.Tests\AbstractFactoryExample.Tests.csproj", "{70C3B6D7-1002-4EDB-9975-EA9F7D92EA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryExample.Tests", "tests\AbstractFactoryExample.Tests\AbstractFactoryExample.Tests.csproj", "{70C3B6D7-1002-4EDB-9975-EA9F7D92EA21}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryExample", "source\AbstractFactoryExample\AbstractFactoryExample.csproj", "{8E85BD39-B1C7-4261-8902-CF3C1217E7D2}"
 EndProject
