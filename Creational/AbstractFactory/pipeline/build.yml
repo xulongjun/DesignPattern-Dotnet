@@ -1,0 +1,11 @@
+jobs:
+- job: factory_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Creational/AbstractFactory/source'
+      testsCodeDirectory: 'Creational/AbstractFactory/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
