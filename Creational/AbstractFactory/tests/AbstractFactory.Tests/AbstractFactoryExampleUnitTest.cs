@@ -1,6 +1,4 @@
 using AbstractFactoryExample.IAbstractFactory;
-using AbstractFactoryExample.IAbstractProductA;
-using System.Linq.Expressions;
 
 namespace AbstractFactoryExample.Tests
 {

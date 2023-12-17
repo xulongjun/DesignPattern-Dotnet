@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AbstractFactoryExample.IAbstractProductB
+﻿namespace AbstractFactoryExample.IAbstractProductB
 {
     // The 'AbstractProductB' interface
     // Each distinct product of the Car product family should have a base interface.

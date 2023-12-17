@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AbstractFactoryExample.IAbstractProductA
+﻿namespace AbstractFactoryExample.IAbstractProductA
 {
     // The ProductB1 class
     // Concrete Products are going to be created by corresponding Concrete Factories.
