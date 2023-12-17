@@ -7,10 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "source\Builder\B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderExample", "source\BuilderExample\BuilderExample.csproj", "{C4633496-32E9-4AD9-8C8A-4E066CBCA36D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46D0AF54-5A7E-4079-98FA-2120FD348C7E}"
-	ProjectSection(SolutionItems) = preProject
-		tests\BuilderExample.Tests\Builder.Tests.csproj = tests\BuilderExample.Tests\Builder.Tests.csproj
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.Tests", "tests\BuilderExample.Tests\Builder.Tests.csproj", "{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +23,10 @@ Global
 		{C4633496-32E9-4AD9-8C8A-4E066CBCA36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4633496-32E9-4AD9-8C8A-4E066CBCA36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4633496-32E9-4AD9-8C8A-4E066CBCA36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44C7D25-86EE-4D79-AFD1-607B30D5B4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
