@@ -1,0 +1,11 @@
+jobs:
+- job: Prototype_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Creational/Prototype/source'
+      testsCodeDirectory: 'Creational/Prototype/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
