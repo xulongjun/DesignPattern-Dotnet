@@ -6,11 +6,11 @@ namespace Singleton.Tests
         public void Singleton_Returns_Same_Instance()
         {
             // Arrange & Act
-            var instance1 = SingletonLazy.Instance;
-            var instance2 = SingletonLazy.Instance;
+            SingletonLazy instance1 = SingletonLazy.Instance;
+            SingletonLazy instance2 = SingletonLazy.Instance;
 
-            var instance3 = SingletonStatic.Instance;
-            var instance4 = SingletonStatic.Instance;
+            SingletonStatic instance3 = SingletonStatic.Instance;
+            SingletonStatic instance4 = SingletonStatic.Instance;
 
             // Assert
             Assert.Same(instance1, instance2);
@@ -21,8 +21,8 @@ namespace Singleton.Tests
         public void Singleton_Returns_Valid_Data()
         {
             // Arrange
-            var instanceLazy = SingletonLazy.Instance;
-            var instanceStatic = SingletonStatic.Instance;
+            SingletonLazy instanceLazy = SingletonLazy.Instance;
+            SingletonStatic instanceStatic = SingletonStatic.Instance;
 
             // Act
             string dataLazy = instanceLazy.Data;
