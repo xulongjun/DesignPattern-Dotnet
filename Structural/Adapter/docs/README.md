@@ -3,7 +3,7 @@ The Adapter design pattern converts the interface of a class into another interf
 >Adapter : Match interfaces of different classes .<br>
 
 ## UML class diagram with example
-![UML or Class Diagram with example](AdapterFactoryExample_UML.webp)
+![UML or Class Diagram with example](AdapterExample_UML.webp)
 
 * Client: The Client class can only see the ITarget interface, i.e., the class that implements the ITarget interface, i.e., the Adapter (in our example, it is the EmployeeAdapter). Using that Adapter (EmployeeAdapter) object, the client will communicate with the Adaptee, which is incompatible with the client.
 * ITarget: This is going to be an interface that needs to be implemented by the Adapter. The client can only see this interface, i.e., the class which implements this interface.
