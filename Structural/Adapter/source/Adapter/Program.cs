@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Create adapter and place a request
+var adapter = new Adapter.Adapter();
+adapter.Request();

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{AA137AB1-6C20-47A0-B58F-D9B39A90D573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "source\Adapter\Adapter.csproj", "{AA137AB1-6C20-47A0-B58F-D9B39A90D573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterExample", "source\AdapterExample\AdapterExample.csproj", "{017E9A73-767E-4232-8BDF-79791BCBE6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterExample.Tests", "tests\AdapterExample.Tests\AdapterExample.Tests.csproj", "{7AE93958-2C86-4C0E-A610-9D50593F149B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{AA137AB1-6C20-47A0-B58F-D9B39A90D573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA137AB1-6C20-47A0-B58F-D9B39A90D573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA137AB1-6C20-47A0-B58F-D9B39A90D573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017E9A73-767E-4232-8BDF-79791BCBE6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017E9A73-767E-4232-8BDF-79791BCBE6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017E9A73-767E-4232-8BDF-79791BCBE6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017E9A73-767E-4232-8BDF-79791BCBE6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE93958-2C86-4C0E-A610-9D50593F149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE93958-2C86-4C0E-A610-9D50593F149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE93958-2C86-4C0E-A610-9D50593F149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE93958-2C86-4C0E-A610-9D50593F149B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
