@@ -1,0 +1,11 @@
+jobs:
+- job: Facade_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Structural/Facade/source'
+      testsCodeDirectory: 'Structural/Facade/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
