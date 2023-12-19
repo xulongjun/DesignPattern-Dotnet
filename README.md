@@ -11,7 +11,7 @@
 [Bridge](Structural/Bridge/docs/README.md)  Frequency of use: medium-low<br>Todo <br>
 [Composite](Structural/Composite/docs/README.md)  Frequency of use: medium-high<br>Todo <br>
 [Decorator](Structural/Decorator/docs/README.md)  Frequency of use: medium<br>Todo <br>
-[Facade](Structural/Facade/docs/README.md)  Frequency of use: high<br>Todo <br>
+[Facade](Structural/Facade/docs/README.md)  Frequency of use: high<br>
 [Flyweight](Structural/Flyweight/docs/README.md)  Frequency of use: low<br>Todo <br>
 [Proxy](Structural/Proxy/docs/README.md)  Frequency of use: medium-high<br>Todo <br>
 
