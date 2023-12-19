@@ -1,6 +1,5 @@
 # DesignPattern-dotnet
 ## Creational design pattern
-
 [Factory](Creational/Factory/docs/README.md)  Frequency of use: high <br>
 [AbstractFactory](Creational/AbstractFactory/docs/README.md).  Frequency of use: high<br>
 [Builder](Creational/Builder/docs/README.md)  Frequency of use: medium-low<br>
