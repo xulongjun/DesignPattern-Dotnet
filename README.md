@@ -16,7 +16,7 @@
 [Proxy](Structural/Proxy/docs/README.md)  Frequency of use: medium-high<br>Todo <br>
 
 ## Behavioral design pattern
-[ChainOfResponsibility](Behavioral/ChainOfResponsibility/docs/README.md)  Frequency of use: medium-low<br>
+[ChainOfResponsibility](Behavioral/ChainOfResponsibility/docs/README.md)  Frequency of use: medium-low<br>Todo <br>
 [Command](Behavioral/Command/docs/README.md)  Frequency of use: medium-high<br>Todo <br>
 [Iterator](Behavioral/Iterator/docs/README.md)  Frequency of use: high<br>Todo <br>
 [Mediator](Behavioral/Mediator/docs/README.md)  Frequency of use: medium-low<br>Todo <br>
