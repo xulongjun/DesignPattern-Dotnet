@@ -21,7 +21,7 @@
 [Iterator](Behavioral/Iterator/docs/README.md)  Frequency of use: high<br>
 [Mediator](Behavioral/Mediator/docs/README.md)  Frequency of use: medium-low<br>Todo <br>
 [Memento](Behavioral/Memento/docs/README.md)  Frequency of use: low<br>Todo <br>
-[Observer](Behavioral/Observer/docs/README.md)  Frequency of use: high<br>Todo <br>
+[Observer](Behavioral/Observer/docs/README.md)  Frequency of use: high<br>
 [State](Behavioral/State/docs/README.md)  Frequency of use: medium<br>Todo <br>
 [Strategy](Behavioral/Strategy/docs/README.md)  Frequency of use: high<br>Todo <br>
 [TemplateMethod](Behavioral/TemplateMethod/docs/README.md)  Frequency of use: medium<br>Todo <br>

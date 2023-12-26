@@ -1,11 +1,11 @@
 jobs:
-- job: Observer_build
+- job: XXXXX_build
   steps:
 
   - template: build/build-dotnet.yml@templates
     parameters:
-      sourceCodeDirectory: 'Behavioral/Observer/source'
-      testsCodeDirectory: 'Behavioral/Observer/tests'
+      sourceCodeDirectory: 'XXXXXXX/XXXXX/source'
+      testsCodeDirectory: 'XXXXXXX/XXXXX/tests'
       dotnetCoreVersion: '8.0.x'
       artifactName: 'ConsolePackage'
       buildConfiguration: 'Release'
