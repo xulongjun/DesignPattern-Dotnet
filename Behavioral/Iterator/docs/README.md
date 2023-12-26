@@ -2,8 +2,8 @@
 The Iterator design pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. <br>
 >Iterator : Sequentially access the elements of a collection.<br>
 
-## UML class diagram
-![UML or Class Diagram ](Iterator_UML.webp)
+## UML class diagram with example
+![UML or Class Diagram with example](IteratorExample_UML.webp)
 
 * Iterator (IAbstractIterator): This interface will define the operations for accessing and traversing elements in a sequence. In our example, it is the IAbstractIterator interface.
 * ConcreteIterator (Iterator): This will be a concrete class implementing the Iterator interface and providing implementations for Iterator interface methods. This class also keeps track of the element’s current position in the traversal. In our example, it is the Iterator class.
