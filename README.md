@@ -1,7 +1,11 @@
 # DesignPattern-dotnet
 ## Creational design pattern
-[Factory](Creational/Factory/docs/README.md)  Frequency of use: high <br>
-[AbstractFactory](Creational/AbstractFactory/docs/README.md).  Frequency of use: high<br>
+### [Factory](Creational/Factory/docs/README.md)
+Creates an instance of several derived classes <br>
+Frequency of use: high <br>
+[AbstractFactory](Creational/AbstractFactory/docs/README.md).  
+Creates an instance of several families of classes
+Frequency of use: high<br>
 [Builder](Creational/Builder/docs/README.md)  Frequency of use: medium-low<br>
 [Prototype](Creational/Prototype/docs/README.md)  Frequency of use: medium<br>
 [Singleton](Creational/Singleton/docs/README.md)  Frequency of use: medium-high<br>
