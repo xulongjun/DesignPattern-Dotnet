@@ -1,0 +1,11 @@
+jobs:
+- job: ChainOfResponsibility_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Behavioral/ChainOfResponsibility/source'
+      testsCodeDirectory: 'Behavioral/ChainOfResponsibility/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
