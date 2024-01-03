@@ -6,9 +6,9 @@ namespace ChainOfResponsibilityExample
     {
         private static void Main(string[] args)
         {
-            TeamLeader teamLeader = new();
-            ProjectLeader projectLeader = new();
-            HR hr = new();
+            TeamLeader teamLeader = new TeamLeader();
+            ProjectLeader projectLeader = new ProjectLeader();
+            HR hr = new HR();
             teamLeader.SetNextSupervisor(projectLeader);
             projectLeader.SetNextSupervisor(hr);
             teamLeader.ApplyLeave("Anurag", 9);
