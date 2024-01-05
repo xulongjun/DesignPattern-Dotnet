@@ -23,6 +23,6 @@
 [Memento](Behavioral/Memento/docs/README.md) : Capture and restore an object's internal state (low). --Todo <br>
 [Observer](Behavioral/Observer/docs/README.md) : A way of notifying change to a number of classes (high).<br>
 [State](Behavioral/State/docs/README.md) : Alter an object's behavior when its state changes: (medium). --Todo <br>
-[Strategy](Behavioral/Strategy/docs/README.md) : Encapsulates an algorithm inside a class (high). --Todo <br>
+[Strategy](Behavioral/Strategy/docs/README.md) : Encapsulates an algorithm inside a class (high). <br>
 [TemplateMethod](Behavioral/TemplateMethod/docs/README.md) : Defer the exact steps of an algorithm to a subclass (medium). --Todo <br>
 [Visitor](Behavioral/Visitor/docs/README.md) : Defines a new operation to a class without change (low). --Todo <br>

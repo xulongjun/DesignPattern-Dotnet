@@ -9,7 +9,7 @@ The Strategy design pattern defines a family of algorithms, encapsulate each one
 declares an interface common to all supported algorithms. Context uses this interface to call the algorithm defined by a ConcreteStrategy.
 * ConcreteStrategy  
 implements the algorithm using the Strategy interface
-* Context 
+* Context  
 is configured with a ConcreteStrategy object<br>
 maintains a reference to a Strategy object<br>
 may define an interface that lets Strategy access its data.<br>
