@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "source\Strategy\Strategy.csproj", "{1C6D26D0-7161-42A1-B0B5-83A397AA359F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExample", "StrategyExample\StrategyExample.csproj", "{D764DE85-A7FC-42E8-A5B7-C90AEA99D866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExample", "source\StrategyExample\StrategyExample.csproj", "{D764DE85-A7FC-42E8-A5B7-C90AEA99D866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExaple.Tests", "StrategyExaple.Tests\StrategyExaple.Tests.csproj", "{3C260AA4-AF0E-436F-AB10-A19B5EFCDD0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExaple.Tests", "tests\StrategyExaple.Tests\StrategyExaple.Tests.csproj", "{3C260AA4-AF0E-436F-AB10-A19B5EFCDD0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
