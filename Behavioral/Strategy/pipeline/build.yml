@@ -1,11 +1,11 @@
 jobs:
-- job: XXX_build
+- job: Strategy_build
   steps:
 
   - template: build/build-dotnet.yml@templates
     parameters:
-      sourceCodeDirectory: 'XXX/XXX/source'
-      testsCodeDirectory: 'XXX/XXX/tests'
+      sourceCodeDirectory: 'Behavioral/Strategy/source'
+      testsCodeDirectory: 'Behavioral/Strategy/tests'
       dotnetCoreVersion: '8.0.x'
       artifactName: 'ConsolePackage'
       buildConfiguration: 'Release'
