@@ -1,0 +1,11 @@
+jobs:
+- job: Command_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Behavioral/Command/source'
+      testsCodeDirectory: 'Behavioral/Command/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'

@@ -17,7 +17,7 @@
 
 ## Behavioral design pattern
 [ChainOfResponsibility](Behavioral/ChainOfResponsibility/docs/README.md) : A way of passing a request between a chain of objects(medium-low). <br>
-[Command](Behavioral/Command/docs/README.md) : Encapsulate a command request as an object (medium-high). --Todo <br>
+[Command](Behavioral/Command/docs/README.md) : Encapsulate a command request as an object (medium-high). <br>
 [Iterator](Behavioral/Iterator/docs/README.md) : Sequentially access the elements of a collection (high).<br>
 [Mediator](Behavioral/Mediator/docs/README.md) : Defines simplified communication between classes (medium-low). --Todo <br>
 [Memento](Behavioral/Memento/docs/README.md) : Capture and restore an object's internal state (low). --Todo <br>
