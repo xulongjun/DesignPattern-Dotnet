@@ -13,7 +13,7 @@
 [Decorator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Decorator/docs/README.md): Add responsibilities to objects dynamically (medium). $\color{red}{\textsf{Todo}}$<br>
 [Facade](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Facade/docs/README.md) : (high).<br>
 [Flyweight](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Flyweight/docs/README.md): A fine-grained instance used for efficient sharing (low). $\color{red}{\textsf{Todo}}$<br>
-[Proxy](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Proxy/docs/README.md): An object representing another object (medium-high). $\color{red}{\textsf{Todo}}$<br>
+[Proxy](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Proxy/docs/README.md): An object representing another object (medium-high). <br>
 
 ## Behavioral design pattern
 [ChainOfResponsibility](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/ChainOfResponsibility/docs/README.md): A way of passing a request between a chain of objects(medium-low). <br>
