@@ -1,0 +1,11 @@
+jobs:
+- job: Proxy_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Structural/Proxy/source'
+      testsCodeDirectory: 'Structural/Proxy/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
