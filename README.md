@@ -7,7 +7,7 @@
 [Singleton](Creational/Singleton/docs/README.md):  A class in which only a single instance can exist (medium-high).<br>
 
 ## Structural design pattern
-[Adapter](/Structural/Adapter/docs/README.md) : Match interfaces of different classes (medium-high).<br> 
+[Adapter](DesignPattern-Dotnet/Structural/Adapter/docs/README.md) : Match interfaces of different classes (medium-high).<br> 
 [Bridge](Structural/Bridge/docs/README.md): Separates an object's abstraction from its implementation (medium-low). $\color{red}{\textsf{Todo}}$<br>
 [Composite](Structural/Composite/docs/README.md): A tree structure of simple and composite objects (medium-high). $\color{red}{\textsf{Todo}}$<br>
 [Decorator](Structural/Decorator/docs/README.md): Add responsibilities to objects dynamically (medium). $\color{red}{\textsf{Todo}}$<br>
