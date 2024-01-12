@@ -9,7 +9,7 @@
 ## Structural design pattern
 [Adapter](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Adapter/docs/README.md): Match interfaces of different classes (medium-high).<br> 
 [Bridge](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Bridge/docs/README.md): Separates an object's abstraction from its implementation (medium-low). $\color{red}{\textsf{Todo}}$<br>
-[Composite](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Composite/docs/README.md): A tree structure of simple and composite objects (medium-high). $\color{red}{\textsf{Todo}}$<br>
+[Composite](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Composite/docs/README.md): A tree structure of simple and composite objects (medium-high).<br>
 [Decorator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Decorator/docs/README.md): Add responsibilities to objects dynamically (medium). $\color{red}{\textsf{Todo}}$<br>
 [Facade](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Facade/docs/README.md) : (high).<br>
 [Flyweight](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Flyweight/docs/README.md): A fine-grained instance used for efficient sharing (low). $\color{red}{\textsf{Todo}}$<br>

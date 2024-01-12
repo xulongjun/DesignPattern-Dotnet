@@ -11,6 +11,7 @@ The Composite design pattern composes objects into tree structures to represent 
 
 ## UML class diagram with example
 ![UML or Class Diagram with example](CompositeExample_UML.webp)
+![UML or Class Diagram with example](CompositeExample_UML_2.webp)
 * Component: This will be an abstract class or interface containing the members that will be implemented by both Leaf and Composite Classes. If required, then it can also implement some of the behavior common to all objects in the composition, and in that case, we need to create the Component as an abstract class. That means the abstract class or interface acts as the base class for all the objects within the hierarchy. In our example, it is the IComponent interface.
 * Leaf: This class will represent the leaf behavior in the composition. In our example, it is the Leaf class. A leaf object does not have any children.
 * Composite: The Composite defines the behavior of the Composite Components. The component is having children. The children can be another composite component or can be a leaf component. In our example, it is the Composite class. This class defines the necessary operations that can be performed on the child components, i.e., Add, Remove, Get, Find, etc. methods.
