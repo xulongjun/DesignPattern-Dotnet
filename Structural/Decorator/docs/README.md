@@ -5,13 +5,13 @@ The Decorator design pattern attaches additional responsibilities to an object d
 ## UML class diagram
 ![UML or Class Diagram ](Decorator_UML.webp)
 
-* Component
+* Component : 
 defines the interface for objects that can have responsibilities added to them dynamically.  
-* ConcreteComponent
+* ConcreteComponent : 
 defines an object to which additional responsibilities can be attached.  
-* Decorator
+* Decorator : 
 maintains a reference to a Component object and defines an interface that conforms to Component's interface.  
-* ConcreteDecorator
+* ConcreteDecorator : 
 adds responsibilities to the component.  
 
 ## UML class diagram with example
