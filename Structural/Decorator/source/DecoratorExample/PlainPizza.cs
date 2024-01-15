@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DecoratorExample
+﻿namespace DecoratorExample
 {
     // Concrete Components provide default implementations of the operations.
     public class PlainPizza : IPizza

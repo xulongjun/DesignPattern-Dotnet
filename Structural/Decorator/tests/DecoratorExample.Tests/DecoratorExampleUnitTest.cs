@@ -8,7 +8,7 @@ public class DecoratorExampleUnitTest
     public void MakePizza_WhenCalled_ReturnsPlainPizza()
     {
         // Act
-        var result = PlainPizza.MakePizza();
+        string result = PlainPizza.MakePizza();
 
         // Assert
         Assert.Equal("Plain Pizza", result);
@@ -18,10 +18,10 @@ public class DecoratorExampleUnitTest
     public void MakePizza_WithPlainPizza_ReturnsChickenPizza()
     {
         // Arrange
-        var chickenPizza = new ChickenPizzaDecorator(PlainPizza);
+        ChickenPizzaDecorator chickenPizza = new(PlainPizza);
 
         // Act
-        var result = chickenPizza.MakePizza();
+        string result = chickenPizza.MakePizza();
 
         // Assert
         Assert.Equal("Plain Pizza, Chicken added", result);
@@ -31,10 +31,10 @@ public class DecoratorExampleUnitTest
     public void MakePizza_WithPlainPizza_ReturnsVegPizza()
     {
         // Arrange
-        var vegPizza = new VegPizzaDecorator(PlainPizza);
+        VegPizzaDecorator vegPizza = new(PlainPizza);
 
         // Act
-        var result = vegPizza.MakePizza();
+        string result = vegPizza.MakePizza();
 
         // Assert
         Assert.Equal("Plain Pizza, Vegetables added", result);

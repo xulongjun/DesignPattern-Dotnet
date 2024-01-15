@@ -1,7 +1,7 @@
 ﻿//Create an instance of Concrete Component
 using DecoratorExample;
 
-PlainPizza plainPizzaObj = new PlainPizza();
+PlainPizza plainPizzaObj = new();
 //Calling the MakePizza method will create the pizza without chicken and vegetables
 string plainPizza = plainPizzaObj.MakePizza();
 Console.WriteLine(plainPizza);
@@ -13,6 +13,6 @@ PizzaDecorator chickenPizzaDecorator = new ChickenPizzaDecorator(plainPizzaObj);
 string chickenPizza = chickenPizzaDecorator.MakePizza();
 Console.WriteLine("\n'" + chickenPizza + "' using ChickenPizzaDecorator");
 //The Process is the same for adding vegetables to the existing pizza
-VegPizzaDecorator vegPizzaDecorator = new VegPizzaDecorator(plainPizzaObj);
+VegPizzaDecorator vegPizzaDecorator = new(plainPizzaObj);
 string vegPizza = vegPizzaDecorator.MakePizza();
 Console.WriteLine("\n'" + vegPizza + "' using VegPizzaDecorator");

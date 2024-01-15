@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DecoratorExample
+﻿namespace DecoratorExample
 {
     //The following Concrete Decorator class will add Chicken to Existing Pizza
     public class ChickenPizzaDecorator : PizzaDecorator

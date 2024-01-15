@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator
+﻿namespace Decorator
 {
     /// <summary>
     /// The 'Decorator' abstract class
@@ -19,10 +12,7 @@ namespace Decorator
         }
         public void Operation()
         {
-            if (component != null)
-            {
-                component.Operation();
-            }
+            component?.Operation();
         }
     }
 
@@ -31,7 +21,7 @@ namespace Decorator
     /// </summary>
     public class ConcreteDecoratorA : Decorator
     {
-        public void Operation()
+        public new void Operation()
         {
             base.Operation();
             Console.WriteLine("ConcreteDecoratorA.Operation()");
@@ -43,14 +33,16 @@ namespace Decorator
     /// </summary>
     public class ConcreteDecoratorB : Decorator
     {
-        public void Operation()
+        public new void Operation()
         {
             base.Operation();
             AddedBehavior();
             Console.WriteLine("ConcreteDecoratorB.Operation()");
         }
-        void AddedBehavior()
+
+        private void AddedBehavior()
         {
+            // Method intentionally left empty.
         }
     }
 }
