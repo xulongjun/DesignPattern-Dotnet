@@ -1,0 +1,11 @@
+jobs:
+- job: Decorator_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Structural/Decorator/source'
+      testsCodeDirectory: 'Structural/Decorator/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
