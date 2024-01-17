@@ -22,7 +22,7 @@ A brief explanation of each category of design patterns:
 [Bridge](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Bridge/docs/README.md): Separates an object's abstraction from its implementation (medium-low).<br>
 [Composite](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Composite/docs/README.md): A tree structure of simple and composite objects (medium-high).<br>
 [Decorator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Decorator/docs/README.md): Add responsibilities to objects dynamically (medium). <br>
-[Facade](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Facade/docs/README.md) : (high).<br>
+[Facade](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Facade/docs/README.md) : a simplified interface to a complex system, making it easier to use by hiding its complexities (high).<br>
 [Flyweight](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Flyweight/docs/README.md): A fine-grained instance used for efficient sharing (low). $\color{red}{\textsf{Todo}}$<br>
 [Proxy](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Proxy/docs/README.md): An object representing another object (medium-high). <br>
 
