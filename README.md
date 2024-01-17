@@ -1,5 +1,8 @@
 # DesignPattern-dotnet
+Welcome to my GitHub repository DesignPattern-dotnet, where we delve into the world of design patterns, specifically tailored for C# developers. In this repository, we provide concise explanations and practical examples of various design patterns, all implemented in C#. To ensure the reliability and effectiveness of these examples, we've employed xUnit for testing. This resource is ideal for developers looking to deepen their understanding of design patterns in C#.
+
 ## Creational design pattern
+Creational Patterns: Focus on ways to create objects.  
 [Factory](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Creational/Factory/docs/README.md): Creates an instance of several derived classes (high). <br>
 [AbstractFactory](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Creational/AbstractFactory/docs/README.md): Creates an instance of several families of classes (high). <br>
 [Builder](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Creational/Builder/docs/README.md):  Separates object construction from its representation (medium-low).<br>
@@ -7,6 +10,7 @@
 [Singleton](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Creational/Singleton/docs/README.md):  A class in which only a single instance can exist (medium-high).<br>
 
 ## Structural design pattern
+Deal with object composition and typically identify simple ways to realize relationships between different objects.  
 [Adapter](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Adapter/docs/README.md): Match interfaces of different classes (medium-high).<br> 
 [Bridge](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Bridge/docs/README.md): Separates an object's abstraction from its implementation (medium-low).<br>
 [Composite](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Composite/docs/README.md): A tree structure of simple and composite objects (medium-high).<br>
@@ -16,6 +20,7 @@
 [Proxy](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Proxy/docs/README.md): An object representing another object (medium-high). <br>
 
 ## Behavioral design pattern
+ Are concerned with algorithms and the assignment of responsibilities between objects.  
 [ChainOfResponsibility](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/ChainOfResponsibility/docs/README.md): A way of passing a request between a chain of objects (medium-low). <br>
 [Command](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/Command/docs/README.md): Encapsulate a command request as an object (medium-high). <br>
 [Iterator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/Iterator/docs/README.md): Sequentially access the elements of a collection (high).<br>
