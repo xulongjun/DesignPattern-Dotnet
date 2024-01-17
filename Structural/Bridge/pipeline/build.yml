@@ -1,0 +1,11 @@
+jobs:
+- job: XXX_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'XXX/XXX/source'
+      testsCodeDirectory: 'XXX/XXX/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'

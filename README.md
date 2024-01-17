@@ -8,7 +8,7 @@
 
 ## Structural design pattern
 [Adapter](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Adapter/docs/README.md): Match interfaces of different classes (medium-high).<br> 
-[Bridge](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Bridge/docs/README.md): Separates an object's abstraction from its implementation (medium-low). $\color{red}{\textsf{Todo}}$<br>
+[Bridge](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Bridge/docs/README.md): Separates an object's abstraction from its implementation (medium-low).<br>
 [Composite](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Composite/docs/README.md): A tree structure of simple and composite objects (medium-high).<br>
 [Decorator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Decorator/docs/README.md): Add responsibilities to objects dynamically (medium). <br>
 [Facade](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Facade/docs/README.md) : (high).<br>
@@ -16,7 +16,7 @@
 [Proxy](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Structural/Proxy/docs/README.md): An object representing another object (medium-high). <br>
 
 ## Behavioral design pattern
-[ChainOfResponsibility](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/ChainOfResponsibility/docs/README.md): A way of passing a request between a chain of objects(medium-low). <br>
+[ChainOfResponsibility](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/ChainOfResponsibility/docs/README.md): A way of passing a request between a chain of objects (medium-low). <br>
 [Command](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/Command/docs/README.md): Encapsulate a command request as an object (medium-high). <br>
 [Iterator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/Iterator/docs/README.md): Sequentially access the elements of a collection (high).<br>
 [Mediator](https://github.com/xulongjun/DesignPattern-Dotnet/blob/main/Behavioral/Mediator/docs/README.md): Defines simplified communication between classes (medium-low). $\color{red}{\textsf{Todo}}$<br>
