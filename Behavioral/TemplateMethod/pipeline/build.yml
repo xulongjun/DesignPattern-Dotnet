@@ -1,0 +1,11 @@
+jobs:
+- job: TemplateMethod_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Behavioral/TemplateMethod/source'
+      testsCodeDirectory: 'Behavioral/TemplateMethod/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'

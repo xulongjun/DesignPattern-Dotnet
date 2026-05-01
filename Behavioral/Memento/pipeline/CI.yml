@@ -1,0 +1,19 @@
+resources:
+  repositories:
+  - repository: templates
+    type: github
+    name: xulongjun/pipeline-templates
+    endpoint: xulongjun
+    ref: refs/heads/main
+
+trigger:
+  - none
+
+stages:
+- stage: Build
+  pool:
+    vmImage: 'ubuntu-latest'
+  jobs:
+  - template: build.yml
+    parameters:
+      localpath: ${{variables['System.DefaultWorkingDirectory']}}/pipeline/

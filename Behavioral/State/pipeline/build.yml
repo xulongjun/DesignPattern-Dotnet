@@ -1,0 +1,11 @@
+jobs:
+- job: State_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Behavioral/State/source'
+      testsCodeDirectory: 'Behavioral/State/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'

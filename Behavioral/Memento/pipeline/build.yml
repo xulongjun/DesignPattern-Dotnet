@@ -1,0 +1,11 @@
+jobs:
+- job: Memento_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Behavioral/Memento/source'
+      testsCodeDirectory: 'Behavioral/Memento/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'

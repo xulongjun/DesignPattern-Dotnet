@@ -1,0 +1,11 @@
+jobs:
+- job: Mediator_build
+  steps:
+
+  - template: build/build-dotnet.yml@templates
+    parameters:
+      sourceCodeDirectory: 'Behavioral/Mediator/source'
+      testsCodeDirectory: 'Behavioral/Mediator/tests'
+      dotnetCoreVersion: '8.0.x'
+      artifactName: 'ConsolePackage'
+      buildConfiguration: 'Release'
